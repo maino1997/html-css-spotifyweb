@@ -14,7 +14,9 @@ header{
     left: 0;
     top: 0;
     right: 0;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .wrapper{
@@ -31,6 +33,7 @@ header{
     background-color: rgb(18, 4, 80);
     flex-grow: 1;
     height: calc( 100vh - 80px);
+    padding-top: 70px;
     margin-bottom: 80px;
     overflow-y: scroll;
 }
@@ -76,4 +79,16 @@ color: white;
 font-size: 1.5em;
 width: 100%;
 height: 100%;
+}
+
+
+/* HEADERBAR  */
+
+header a{
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 12px 25px 12px 25px;
+    font-size: 0.8em;
 }
