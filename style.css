@@ -107,6 +107,9 @@ section{
     align-items: center;
 }
 
+.footer-cont , .selector{
+    flex-basis: 30%;
+}
 
 
 /* SIDEBAR  */
@@ -220,6 +223,11 @@ footer h3{
     align-items: center;
 }
 
+.footer-cont:last-child{
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
 .footer-item{
     margin: 0 10px 0 10px;
     display: flex;
@@ -242,8 +250,16 @@ footer img{
 
 .selector-row{
     display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.selector i{
+    font-size: 20px;
+    margin: 0 5px 0 5px;
 }
 
 footer hr{
     width: 50px;
 }
+
