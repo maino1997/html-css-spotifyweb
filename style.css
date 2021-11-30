@@ -13,7 +13,7 @@ header{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    left: 30px;
+    left: 50px;
     top: 0;
     right: 0;
     display: flex;
@@ -21,11 +21,6 @@ header{
     align-items: center;
 }
 
-.sidebar{
-    background-color: black;
-    flex-basis: 80px;
-    height: calc( 100vh - 80px);
-}
 
 .main-content{
     background-color: rgb(18, 4, 80);
@@ -88,6 +83,11 @@ section{
     display: flex;
 }
 
+/* .container{
+    width: 85%;
+    margin: 0 auto;
+} */
+
 
 .row{
     margin-bottom: 20px;
@@ -100,8 +100,8 @@ section{
 .box{
     margin-top: 60px;
     margin-bottom: 20px;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,9 +117,12 @@ section{
 .sidebar{
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(216, 210, 210);
     align-items: center;
     justify-content: space-between;
+    background-color: black;
+    width: 120px;
+    height: calc( 100vh - 80px);
 }
 
 .sidebar li{
@@ -129,6 +132,7 @@ section{
 .sidebar i{
     width: 100%;
     height: 100%;
+    color: rgb(216, 210, 210);
 }
 
 .bottom-ul{
@@ -195,11 +199,6 @@ main nav a{
     height: 100%;
     color: grey;
     font-size: 15px;
-}
-
-main nav a:hover{
-    border: 1px solid white;
-    border-radius: 15px;
 }
 
 
@@ -281,4 +280,19 @@ footer hr{
     height: 3px;
     background-color: white;
     border-radius: 2px;
+}
+
+
+/* HOVER  */
+
+.box:hover{
+    filter: opacity(0.4);
+}
+
+.main-navbar a:hover{
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
