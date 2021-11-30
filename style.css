@@ -13,7 +13,7 @@ header{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    left: 80px;
+    left: 30px;
     top: 0;
     right: 0;
     display: flex;
@@ -43,6 +43,8 @@ footer{
     left: 0;
     bottom: 0;
     right: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 a{
@@ -200,3 +202,32 @@ main nav a{
 }
 
 
+/* FOOTER  */
+
+footer span {
+    font-size: 12px;
+    margin: 0;
+}
+
+footer h3{
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.footer-cont{
+    display: flex;
+    align-items: center;
+}
+
+.footer-item{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
