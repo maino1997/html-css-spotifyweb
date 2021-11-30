@@ -13,7 +13,7 @@ header{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    left: 0;
+    left: 60px;
     top: 0;
     right: 0;
     display: flex;
@@ -27,7 +27,7 @@ header{
 
 .sidebar{
     background-color: black;
-    flex-basis: 10%;
+    flex-basis: 60px;
     height: calc( 100vh - 80px);
 }
 
@@ -129,6 +129,7 @@ header a{
     border-radius: 20px;
     padding: 12px 25px 12px 25px;
     font-size: 0.8em;
+    margin-right: 20px;
 }
 
 /* MAIN  */
