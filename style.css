@@ -113,6 +113,10 @@ section{
     flex-basis: 30%;
 }
 
+.invisible{
+    display: none;
+}
+
 
 /* SIDEBAR  */
 
