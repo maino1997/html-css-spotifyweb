@@ -309,13 +309,13 @@ footer hr{
 
 @media screen and (min-width: 576px){
     .sidebar{
-        width: 250px;
+        flex-basis: 200px;
     }
 
     .sidebar li{
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .sidebar img{
