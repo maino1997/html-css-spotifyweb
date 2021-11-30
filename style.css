@@ -10,24 +10,29 @@
 header{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 
 }
 
 .wrapper{
     display: flex;
-    height: 100vh;
 }
 
 .sidebar{
     background-color: black;
     flex-basis: 10%;
-    height: 100%;
+    height: calc( 100vh - 80px);
 }
 
 .main-content{
     background-color: rgb(18, 4, 80);
     flex-grow: 1;
-    height: 100%;
+    height: calc( 100vh - 80px);
+    margin-bottom: 80px;
+    overflow-y: scroll;
 }
 
 footer{
