@@ -110,6 +110,20 @@ section{
     align-items: center;
 }
 
+figure{
+    position: relative;
+}
+
+.fa-play{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    display: none;
+}
+
 .footer-cont {
     display: flex;
     width: 30%;
@@ -325,7 +339,7 @@ footer img{
 
 /* HOVER  */
 
-.box:hover{
+figure:hover{
     filter: opacity(0.4);
 }
 
@@ -351,6 +365,10 @@ footer img{
 
 .fa-play-circle:hover{
     transform: scale(1.6);
+}
+
+figure:hover .fa-play{
+   display: inline-block;
 }
 
 
