@@ -102,6 +102,11 @@ section{
     display: none;
 }
 
+#white{
+    color: white;
+    font-weight: bolder;
+}
+
 
 /*********** SIDEBAR  ************/
 
