@@ -13,7 +13,7 @@ header{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    left: 50px;
+    left: 40px;
     top: 0;
     right: 0;
     display: flex;
@@ -83,6 +83,7 @@ section{
 
 .wrapper{
     display: flex;
+    height: calc( 100vh - 80px);
 }
 
 /* .container{
@@ -121,14 +122,15 @@ section{
 /* SIDEBAR  */
 
 .sidebar{
+    flex-basis: 40px;
+    flex-shrink: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
     color: rgb(216, 210, 210);
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    flex-basis: 120px;
-    height: calc( 100vh - 80px);
 }
 
 .sidebar li{
@@ -309,7 +311,12 @@ footer hr{
 
 @media screen and (min-width: 576px){
     .sidebar{
-        flex-basis: 200px;
+        flex-basis: 100px;
+        flex-shrink: 0;
+    }
+
+    header{
+        left: 100px;
     }
 
     .sidebar li{
@@ -330,6 +337,6 @@ footer hr{
     
     ul.invisible{
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 }
