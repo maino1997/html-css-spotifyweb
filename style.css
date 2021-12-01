@@ -246,7 +246,6 @@ footer h3{
 }
 
 .footer-item{
-    width: 100%;
     margin: 0 10px 0 10px;
     display: flex;
     flex-direction: column;
@@ -299,6 +298,10 @@ footer img{
     border-radius: 2px;
 }
 
+.fixed-bar{
+    width: 50%;
+}
+
 .progress-bar{
     width: 30%;
     height: 3px;
@@ -333,13 +336,11 @@ footer img{
     
     .sidebar span{
         font-size: 12px;
-        color: rgb(75, 74, 74);
+        color: rgb(138, 135, 135);
     }
 
     
-     .playlist a{
-        color: rgb(78, 75, 75);
-    } 
+     
 
     h3.invisible{
         margin-left: 5px;
@@ -401,10 +402,16 @@ footer img{
         margin-bottom: 15px;
     }
     
-    ul.invisible{
+    .playlist{
         flex-direction: column;
         overflow-y: auto;
     }
+
+    .playlist a{
+        color: rgb(129, 126, 126);
+        margin: 5px;
+    } 
+
 
     .bottom-ul{
         display: block;
@@ -415,9 +422,6 @@ footer img{
         height: 10%;
     }
     
-    .bottom-ul hr{
-        width: 30%;
-    }
 
     .autore{
         display: flex;
