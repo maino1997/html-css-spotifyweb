@@ -22,7 +22,7 @@ header{
 }
 
 
-.main-content{
+main{
     background-color: rgb(18, 4, 80);
     flex-grow: 1;
     height: calc( 100vh - 80px);
@@ -124,7 +124,7 @@ section{
 .sidebar{
     flex-basis: 40px;
     flex-shrink: 0;
-    height: 100%;
+    height: calc( 100vh - 80px);;
     display: flex;
     flex-direction: column;
     color: rgb(216, 210, 210);
@@ -311,12 +311,16 @@ footer hr{
 
 @media screen and (min-width: 576px){
     .sidebar{
-        flex-basis: 100px;
+        flex-basis: 120px;
         flex-shrink: 0;
+    }
+    
+    main{
+        flex-grow: 1;
     }
 
     header{
-        left: 100px;
+        left: 120px;
     }
 
     .sidebar li{
