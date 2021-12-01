@@ -70,7 +70,6 @@ h3{
 
 span{
     color: lightgray;
-    margin-top: 10px;
     margin-left: 20px;
 }
 
@@ -416,16 +415,10 @@ footer .fa-play-circle:hover{
     .sidebar span{
         font-size: 12px;
         color: rgb(138, 135, 135);
-        margin-bottom: 10px;
         margin-left: 5px;
     }
 
-
-    h3.invisible{
-        margin-left: 5px;
-        font-size: 1.5em;
-    }
-
+    
     .top-ul a{
         justify-content: flex-start;
     }
@@ -436,12 +429,19 @@ footer .fa-play-circle:hover{
         align-items: center;
         margin-top: 0px;
     }
+
+    
+
+    h3.invisible{
+        margin-left: 5px;
+        font-size: 1.5em;
+    }
     
     .sidebar img{
         width: 15%;
         height: 15%;
-
     }
+
 
     #spot-logo{
         width: 20%;
@@ -464,6 +464,7 @@ footer .fa-play-circle:hover{
        
     .playlist{
         margin-top: 30px;
+        display: flex;
         flex-direction: column;
         overflow-y: auto;
     }
@@ -472,6 +473,11 @@ footer .fa-play-circle:hover{
         color: rgb(129, 126, 126);
         margin: 5px;
     } 
+
+    .playlist span{
+        display: flex;
+        align-items: center;
+    }
 
 
     /*** Bottom ul  ***/
