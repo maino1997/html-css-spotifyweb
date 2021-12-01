@@ -343,6 +343,10 @@ figure:hover{
     filter: opacity(0.4);
 }
 
+figure:hover .fa-play{
+    display: inline-block;
+ }
+
 .main-navbar a:hover{
     color: white;
 }
@@ -365,10 +369,6 @@ figure:hover{
 
 .fa-play-circle:hover{
     transform: scale(1.6);
-}
-
-figure:hover .fa-play{
-   display: inline-block;
 }
 
 
