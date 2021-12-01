@@ -375,6 +375,10 @@ figure:hover .fa-play-circle{
     color: white
 }
 
+.autore span:hover{
+    text-decoration: underline;
+}
+
 .fa-heart:hover , .fa-folder:hover{
     color: white;
 }
