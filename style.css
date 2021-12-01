@@ -311,6 +311,17 @@ footer img{
         display: flex;
     }
 
+    h3.invisible{
+        margin-left: 5px;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    span.invisible{
+        font-size: 12px;
+        color: grey;
+    }
+
     .sidebar{
         flex-basis: 200px;
         flex-shrink: 0;
@@ -334,8 +345,8 @@ footer img{
     }
     
     .sidebar img{
-        width: 25%;
-        height: 25%;
+        width: 20%;
+        height: 20%;
     }
 
     .sidebar span{
@@ -388,6 +399,15 @@ footer img{
 @media screen and (min-width: 767px){
     .box{
         flex-basis: 25%;
+    }
+
+    main h3{
+        font-size: 16px;
+    }
+
+    .box span{
+        margin-left: 0;
+        font-size: 14px;
     }
 
     .folder{
