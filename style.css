@@ -510,4 +510,13 @@ footer .fa-play-circle:hover{
     .box{
         flex-basis: calc(100% /6);
     }
+
+    main h3{
+        font-size: 15px;
+    }
+
+    .box span{
+        margin-left: 0;
+        font-size: 13px;
+    }
 }
