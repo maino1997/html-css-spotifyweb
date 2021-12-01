@@ -114,7 +114,8 @@ figure{
     position: relative;
 }
 
-.fa-play{
+.fa-play-circle{
+    z-index: 2;
     font-size: 3em;
     color: white;
     position: absolute;
@@ -340,10 +341,10 @@ footer img{
 /* HOVER  */
 
 figure:hover{
-    filter: opacity(0.4);
+    filter: opacity(0.7);
 }
 
-figure:hover .fa-play{
+figure:hover .fa-play-circle{
     display: inline-block;
  }
 
@@ -367,7 +368,7 @@ figure:hover .fa-play{
     display: block;
 }
 
-.fa-play-circle:hover{
+footer .fa-play-circle:hover{
     transform: scale(1.6);
 }
 
