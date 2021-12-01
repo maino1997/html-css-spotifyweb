@@ -383,14 +383,41 @@ footer .fa-play-circle:hover{
 }
 
 
-/* MEDIA QUERY */
+/*********** MEDIA QUERY ***********/
 
 @media screen and (min-width: 576px){
+
+    /*** Layout change ***/
+
+    .sidebar .invisible {
+        display: inline;
+        font-size: 13px;
+        margin-right: 30px;
+    }
+
+    .sidebar{
+        flex-basis: 200px;
+        flex-shrink: 0;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    main{
+        flex-grow: 1;
+    }
+
+    header{
+        left: 200px;
+    }
+  
+
+    /*** General style sidebar  ***/
     
     .sidebar span{
         font-size: 12px;
         color: rgb(138, 135, 135);
         margin-bottom: 10px;
+        margin-left: 5px;
     }
 
 
@@ -403,21 +430,7 @@ footer .fa-play-circle:hover{
         justify-content: flex-start;
     }
 
-    .sidebar{
-        flex-basis: 200px;
-        flex-shrink: 0;
-        align-items: flex-start;
-        padding: 15px;
-    }
     
-    main{
-        flex-grow: 1;
-    }
-
-    header{
-        left: 200px;
-    }
-
     .sidebar li{
         display: flex;
         align-items: center;
@@ -435,27 +448,20 @@ footer .fa-play-circle:hover{
         height: 20%;
     }
 
-    .sidebar span{
-        margin-left: 5px;
-    }
-
     .sidebar .fa-plus-square{
        font-size: 3em;
        margin-right: 10px;
     }
 
     .sidebar hr{
+        border-color: white;
         display: block;
         margin: 10px 0;
     }
     
-    
-    .sidebar .invisible {
-        display: inline;
-        font-size: 13px;
-        margin-right: 30px;
-    }
-    
+
+    /*** Playlist ul  ***/
+       
     .playlist{
         margin-top: 30px;
         flex-direction: column;
@@ -468,6 +474,9 @@ footer .fa-play-circle:hover{
     } 
 
 
+    /*** Bottom ul  ***/
+
+
     .bottom-ul{
         margin-top: 30px;
         display: block;
@@ -478,6 +487,8 @@ footer .fa-play-circle:hover{
         height: 10%;
     }
     
+
+    /*** Media 576 footer  ***/
 
     .autore{
         display: flex;
