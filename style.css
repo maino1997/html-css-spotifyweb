@@ -319,8 +319,9 @@ footer img{
 
     span.invisible{
         font-size: 12px;
-        color: grey;
+        color: darkgray;
     }
+
 
     .sidebar{
         flex-basis: 200px;
@@ -341,10 +342,15 @@ footer img{
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
     .sidebar img{
+        width: 15%;
+        height: 15%;
+    }
+
+    #spot-logo{
         width: 20%;
         height: 20%;
     }
