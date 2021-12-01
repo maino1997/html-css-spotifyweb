@@ -377,12 +377,17 @@ figure:hover .fa-play-circle{
 
 .autore span:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .fa-heart:hover , .fa-folder:hover{
     color: white;
+    cursor: pointer;
 }
 
+.bar:hover{
+    cursor: pointer;
+}
 
 .bar:hover .progress-bar{
     background-color: yellowgreen;
@@ -395,6 +400,7 @@ figure:hover .fa-play-circle{
 footer .fa-play-circle:hover{
     transform: scale(1.6);
     color: white;
+    cursor: pointer;
 }
 
 
