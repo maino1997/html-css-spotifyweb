@@ -112,7 +112,7 @@ section{
 
 .footer-cont {
     display: flex;
-    flex-basis: 30%;
+    width: 30%;
 }
 
 .selector{
@@ -222,7 +222,6 @@ main nav a{
 }
 
 
-
 /* FOOTER  */
 
 footer span {
@@ -246,9 +245,19 @@ footer h3{
 }
 
 .footer-item{
+    width: 100%;
     margin: 0 10px 0 10px;
     display: flex;
     flex-direction: column;
+}
+
+.volume{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.volume span{
+    margin: 0 5px;
 }
 
 
