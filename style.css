@@ -307,6 +307,19 @@ footer img{
     height: 3px;
     background-color: white;
     border-radius: 2px;
+    position: relative;
+}
+
+.prog-point{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-40%);
+    display: none;
 }
 
 
@@ -328,6 +341,13 @@ footer img{
     color: white
 }
 
+.bar:hover .progress-bar{
+    background-color: yellowgreen;
+}
+
+.bar:hover .prog-point{
+    display: block;
+}
 
 
 /* MEDIA QUERY */
