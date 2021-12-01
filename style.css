@@ -318,7 +318,7 @@ footer img{
     position: absolute;
     right: 0;
     top: 0;
-    transform: translateY(-40%);
+    transform: translate(50% , -40%);
     display: none;
 }
 
@@ -347,6 +347,10 @@ footer img{
 
 .bar:hover .prog-point{
     display: block;
+}
+
+.fa-play-circle:hover{
+    transform: scale(1.6);
 }
 
 
