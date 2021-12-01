@@ -242,27 +242,6 @@ main nav a{
 .footer-cont {
     display: flex;
     width: 30%;
-}
-
-.selector{
-    display: flex;
-    flex-grow: 1;
-    width: 100%;
-}
-
-footer span {
-    font-size: 12px;
-    margin: 0;
-}
-
-footer h3{
-    font-size: 15px;
-    margin: 0;
-}
-
-
-.footer-cont{
-    display: flex;
     align-items: center;
 }
 
@@ -270,13 +249,10 @@ footer h3{
     justify-content: flex-end;
 }
 
-.footer-item{
-    margin: 0 10px 0 10px;
-    display: flex;
-    flex-direction: column;
-}
-
 .selector{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
     flex-basis: calc(100% / 3);
     height: 100%;
     display: flex;
@@ -293,9 +269,34 @@ footer h3{
     margin-top: 10px;
 }
 
+
+.footer-item{
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*** footer style  ***/
+
+footer span {
+    font-size: 12px;
+    margin: 0;
+}
+
+footer h3{
+    font-size: 15px;
+    margin: 0;
+}
+
 footer img{
     width: 40px;
     height: 40px;
+}
+
+/***** Left footer-cont  *****/
+
+.fa-heart , .fa-folder{
+    color: rgb(138, 135, 135);
 }
 
 
@@ -303,7 +304,7 @@ footer img{
 
 .selector i{
     font-size: 20px;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
 }
 
 
@@ -374,6 +375,11 @@ figure:hover .fa-play-circle{
     color: white
 }
 
+.fa-heart:hover , .fa-folder:hover{
+    color: white;
+}
+
+
 .bar:hover .progress-bar{
     background-color: yellowgreen;
 }
@@ -384,6 +390,7 @@ figure:hover .fa-play-circle{
 
 footer .fa-play-circle:hover{
     transform: scale(1.6);
+    color: white;
 }
 
 
