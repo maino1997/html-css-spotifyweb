@@ -340,7 +340,7 @@ footer img{
 
 /* HOVER  */
 
-figure:hover{
+figure:hover img{
     filter: opacity(0.7);
 }
 
