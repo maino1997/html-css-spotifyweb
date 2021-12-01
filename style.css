@@ -1,4 +1,4 @@
-/* GENERALS  */
+/******** GENERALS  *********/
 
 *{
     margin: 0;
@@ -43,6 +43,10 @@ footer{
     justify-content: space-between;
 }
 
+figure{
+    position: relative;
+}
+
 a{
     text-decoration: none;
 }
@@ -80,17 +84,13 @@ section{
 }
 
 
-/* UTILITIES  */
+
+/********** UTILITIES  ***********/
 
 .wrapper{
     display: flex;
     height: calc( 100vh - 80px);
 }
-
-/* .container{
-    width: 85%;
-    margin: 0 auto;
-} */
 
 
 .row{
@@ -99,49 +99,12 @@ section{
     flex-wrap: wrap;
 }
 
-
-.box{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    flex-basis: 50%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-figure{
-    position: relative;
-}
-
-main .fa-play-circle{
-    z-index: 2;
-    font-size: 3em;
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    display: none;
-}
-
-.footer-cont {
-    display: flex;
-    width: 30%;
-}
-
-.selector{
-    display: flex;
-    flex-grow: 1;
-    width: 100%;
-}
-
 .invisible{
     display: none;
 }
 
 
-/* SIDEBAR  */
+/*********** SIDEBAR  ************/
 
 .sidebar{
     flex-basis: 40px;
@@ -172,10 +135,6 @@ main .fa-play-circle{
     justify-self: center;
 }
 
-.fa-arrow-circle-down{
-    font-size: 12px;
-}
-
 .sidebar img{
     height: 100%;
     width: 90%;
@@ -191,7 +150,9 @@ main .fa-play-circle{
 }
 
 
-/* HEADERBAR  */
+
+
+/************ HEADERBAR  ************/
 
 header a{
     background-color: transparent;
@@ -200,14 +161,36 @@ header a{
     border-radius: 20px;
     padding: 12px 25px 12px 25px;
     font-size: 0.8em;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 
 
-/* MAIN  */
+/*************** MAIN  ***************/
 
-/* nav bar  */
+.box{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    flex-basis: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .fa-play-circle{
+    z-index: 2;
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    display: none;
+}
+
+
+/********* nav bar  **********/
 
 main .main-navbar{
     margin-top: 30px;
@@ -235,7 +218,7 @@ main nav a{
 }
 
 
-/* section popular */
+/********* Section popular *********/
 
 
 .round{
@@ -244,7 +227,24 @@ main nav a{
 }
 
 
-/* FOOTER  */
+
+
+
+/************ FOOTER  *************/
+
+
+/* Footer containers and big blocks  */
+
+.footer-cont {
+    display: flex;
+    width: 30%;
+}
+
+.selector{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
 
 footer span {
     font-size: 12px;
@@ -272,22 +272,6 @@ footer h3{
     flex-direction: column;
 }
 
-.volume{
-    justify-content: flex-end;
-    flex-direction: row;
-}
-
-.volume span{
-    margin: 0 5px;
-}
-
-
-footer img{
-    width: 40px;
-    height: 40px;
-}
-
-
 .selector{
     flex-basis: calc(100% / 3);
     height: 100%;
@@ -305,11 +289,30 @@ footer img{
     margin-top: 10px;
 }
 
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/***** Central selector  *****/
+
 .selector i{
     font-size: 20px;
     margin: 0 5px 0 5px;
 }
 
+
+/***** Right footer-cont  *****/
+
+.volume{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.volume span{
+    margin: 0 5px;
+}
 
 .bar{
     margin: 5px 5px 0 5px;
@@ -344,7 +347,11 @@ footer img{
 }
 
 
-/* HOVER  */
+/********** HOVER  *********/
+
+.btn:hover{
+    transform: scale(1.05);
+}
 
 figure:hover img{
     filter: opacity(0.7);
@@ -357,10 +364,6 @@ figure:hover .fa-play-circle{
 
 .main-navbar a:hover{
     color: white;
-}
-
-.btn:hover{
-    transform: scale(1.05);
 }
 
 .sidebar span:hover{
@@ -390,11 +393,6 @@ footer .fa-play-circle:hover{
         margin-bottom: 10px;
     }
 
-   /* .sidebar .top-ul li{
-       display: flex;
-       align-items: center;
-   }     */
-     
 
     h3.invisible{
         margin-left: 5px;
