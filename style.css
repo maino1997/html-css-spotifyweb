@@ -326,13 +326,13 @@ footer hr{
     }
     
     .sidebar img{
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
     
     
     .invisible{
         display: flex;
-        font-size: 7px;
+        font-size: 11px;
     }
     
     ul.invisible{
