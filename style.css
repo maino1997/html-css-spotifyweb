@@ -144,6 +144,13 @@ section{
     margin-left: 5px;
 }
 
+.top-ul a , .bottom-ul a{ 
+    display: flex;
+    align-items: center;
+ }
+
+
+/*** Top Ul  ***/
 
 .top-ul a{
     display: flex;
@@ -154,6 +161,35 @@ section{
     margin-bottom: 10px;
 }
 
+#spot-logo{
+    margin-top: 10px;
+}
+
+
+/*** Playlist  ***/
+
+.playlist span{
+    display: flex;
+    align-items: center;
+}
+
+.playlist a{
+    color: rgb(129, 126, 126);
+    margin: 5px;
+} 
+
+.sidebar .fa-plus-square{
+    font-size: 3em;
+    margin-right: 10px;
+ }
+
+h3.invisible{
+    margin-left: 5px;
+    font-size: 1.5em;
+}
+
+
+/*** Bottom Ul  ***/
 
 .bottom-ul{
     display: flex;
@@ -171,22 +207,6 @@ section{
 }
 
 
-#spot-logo{
-    margin-top: 10px;
-}
-
-
-h3.invisible{
-    margin-left: 5px;
-    font-size: 1.5em;
-}
-
-
-.top-ul a , .bottom-ul a{ 
-   display: flex;
-   align-items: center;
-}
-
 .sidebar .bar{
     display: none;
     margin: 10px 0;
@@ -195,20 +215,6 @@ h3.invisible{
     border-radius: 0%;
 }
 
-.sidebar .fa-plus-square{
-    font-size: 3em;
-    margin-right: 10px;
- }
-
- .playlist span{
-    display: flex;
-    align-items: center;
-}
-
-.playlist a{
-    color: rgb(129, 126, 126);
-    margin: 5px;
-} 
 
 
 
