@@ -428,7 +428,8 @@ footer img{
 
 
 .fixed-bar{
-    width: 50%;
+    width: 200px;
+    min-width: 50px;
 }
 
 
@@ -620,7 +621,7 @@ footer .fa-play-circle:hover{
 
 }
 
-@media screen and (min-width: 991px){
+@media screen and (min-width: 992px){
     .box{
         flex-basis: calc(100% / 6 - 20px);
     }
