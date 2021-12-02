@@ -144,6 +144,12 @@ section{
     width: 90%;
 }
 
+#prof-icon{
+    padding: 1px 2px 1px 2px;
+    background-color: rgb(129, 126, 126);
+    border-radius: 50%;
+}
+
 
 #spot-logo{
     margin-top: 10px;
