@@ -126,6 +126,24 @@ section{
     background-color: black;
 }
 
+.sidebar img{
+    height: 100%;
+    width: 90%;
+}
+
+.sidebar li{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.sidebar span{
+    font-size: 12px;
+    color: rgb(138, 135, 135);
+    margin-left: 5px;
+}
+
 
 .top-ul a{
     display: flex;
@@ -144,10 +162,6 @@ section{
     justify-self: center;
 }
 
-.sidebar img{
-    height: 100%;
-    width: 90%;
-}
 
 #prof-icon{
     margin-left: 2px;
@@ -161,18 +175,6 @@ section{
     margin-top: 10px;
 }
 
-.sidebar li{
-    display: flex;
-    align-items: center;
-    margin-top: 0px;
-}
-
-
-.sidebar span{
-    font-size: 12px;
-    color: rgb(138, 135, 135);
-    margin-left: 5px;
-}
 
 h3.invisible{
     margin-left: 5px;
