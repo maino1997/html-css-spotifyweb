@@ -38,7 +38,7 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0; 
     display: flex;
     justify-content: space-between;
 }
@@ -123,12 +123,16 @@ section{
 }
 
 .sidebar li{
-    margin: 5px 0 5px 0;
+    /* margin: 5px 0 5px 0; */
 }
 
 .top-ul a{
     display: flex;
     justify-content: center;
+}
+
+.top-ul li{
+    margin-bottom: 10px;
 }
 
 
@@ -152,6 +156,15 @@ section{
 .sidebar hr{
     display: none;
 }
+
+#title{
+    transform: scale(1.8);
+    margin: 0 0 0 45px;
+ }
+
+ #home{
+     margin-top: 30px;
+ }
 
 
 
