@@ -146,6 +146,11 @@ section{
     width: 90%;
 }
 
+
+#spot-logo{
+    margin-top: 10px;
+}
+
 .top-ul a , .bottom-ul a{ 
    display: flex;
    align-items: center;
