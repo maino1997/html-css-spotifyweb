@@ -376,6 +376,10 @@ footer img{
     color: rgb(138, 135, 135);
 }
 
+.autore{
+    display: flex;
+}
+
 
 /***** Central selector style *****/
 
@@ -584,10 +588,6 @@ footer .fa-play-circle:hover{
     
 
     /*** Media 576 footer  ***/
-
-    .autore{
-        display: flex;
-    }
 
     .autore span{
         margin-right: 10px;
