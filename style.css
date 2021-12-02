@@ -24,7 +24,7 @@ header{
 
 
 main{
-    background-color: rgb(18, 4, 80);
+    background-color: rgb(20 , 25, 34);
     flex-grow: 1;
     height: calc( 100vh - 80px);
     padding-top: 70px;
