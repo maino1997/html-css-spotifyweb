@@ -64,7 +64,7 @@ h2{
 }
 
 h3{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 span{
@@ -150,6 +150,7 @@ section{
 }
 
 #prof-icon{
+    margin-left: 2px;
     padding: 1px 2px 1px 2px;
     background-color: rgb(129, 126, 126);
     border-radius: 50%;
@@ -237,6 +238,7 @@ header a{
 }
 
 .box span{
+    margin-top: 5px;
     color:rgb(129, 126, 126);
 }
 
