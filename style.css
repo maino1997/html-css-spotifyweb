@@ -10,6 +10,7 @@
 
 
 header{
+    z-index: 1;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
@@ -122,9 +123,6 @@ section{
     background-color: black;
 }
 
-.sidebar li{
-    /* margin: 5px 0 5px 0; */
-}
 
 .top-ul a{
     display: flex;
@@ -153,8 +151,9 @@ section{
    align-items: center;
 }
 
-.sidebar hr{
+.sidebar .bar{
     display: none;
+    margin: 10px 0;
 }
 
 
@@ -478,10 +477,12 @@ footer .fa-play-circle:hover{
        margin-right: 10px;
     }
 
-    .sidebar hr{
-        border-color: white;
+    .sidebar .bar{
+        height: 2px;
+        color: white;
         display: block;
         margin: 10px 0;
+        border-radius: 0%;
     }
 
 
