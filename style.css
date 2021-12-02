@@ -457,6 +457,8 @@ footer .fa-play-circle:hover{
 }
 
 
+
+
 /*********** MEDIA QUERY ***********/
 
 @media screen and (min-width: 576px){
@@ -500,8 +502,13 @@ footer .fa-play-circle:hover{
 
 
     #spot-logo{
-        width: 20%;
-        height: 20%;
+        display: none;
+    }
+
+    #logo-big{
+        margin-top: 5px;
+        width: 100%;
+        height: 70%;
     }
 
     
