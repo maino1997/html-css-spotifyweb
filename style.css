@@ -295,6 +295,7 @@ main nav li{
 }
 
 main nav a{
+    display: inline-block;
     height: 100%;
     color: grey;
     font-size: 15px;
