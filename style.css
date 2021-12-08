@@ -13,6 +13,7 @@ header{
     z-index: 1;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.3s linear;
     position: fixed;
     left: 40px;
     top: 0;
@@ -129,6 +130,7 @@ section{
     align-items: center;
     justify-content: space-between;
     background-color: black;
+    transition: 0.3s linear;
 }
 
 .sidebar img{
